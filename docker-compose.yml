@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  bind9:
+    image: ubuntu/bind9:latest
+    ports:
+      - "53:53/udp"
+      - "53:53/tcp"
+    volumes:
+      - ./zones:/var/lib/bind
+      - type: bind
+        source: ./named.conf
+        target: /etc/bind/named.conf
