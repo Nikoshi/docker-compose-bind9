@@ -8,6 +8,7 @@
 testnetz.int.                   15M  IN  A       172.17.22.150
 grafana                         15M  IN  A       172.17.22.150
 docker                          15M  IN  A       172.17.22.150
+prometheus                      15M  IN  A       172.17.22.150
 reg-dn-dui.lars                 15M  IN  A       172.17.12.146
 reg-dn.lars                     15M  IN  A       172.17.12.147
 reg-dn-dui.icy                  15M  IN  A       172.17.22.146
