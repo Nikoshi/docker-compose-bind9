@@ -1,0 +1,12 @@
+@                               15M IN SOA   testnetz.int. root.testnetz.int. (
+                                    2023020100    ; serial (yyyymmdd##)
+                                    3H    ; refresh
+                                    15M   ; retry
+                                    1W    ; expiry
+                                    15M )  ; minimum ttl
+@                               15M  IN  NS      testnetz.int.
+testnetz.int.                   15M  IN  A       172.17.22.150
+reg-dn-dui.lars                 15M  IN  A       172.17.12.146
+reg-dn.lars                     15M  IN  A       172.17.12.147
+reg-dn-dui.icy                  15M  IN  A       172.17.22.146
+reg-dn.icy                      15M  IN  A       172.17.22.147
